@@ -9,9 +9,27 @@
 
 .dash .digit {
   float: left;
+  position: absolute;
+  width: 25%;
+  font: 600 36px/70px "Open sans", Arial, sans-serif;
+  margin-right: 10px;
+}
+
+.digits {
+  display: block;
+  position: relative;
+}
+
+.digit-1 {
+  margin-left: -19px;
+}
+
+.digit-2 {
+  margin-right: 19px;
 }
 
 .dash_title {
+  display: block;
   margin-left: 3px;
 }
 
