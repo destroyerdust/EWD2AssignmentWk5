@@ -1,0 +1,12 @@
+.dash {
+  float: left;
+  margin-left: 10px;
+}
+
+.dash .digit {
+  float: left;
+}
+
+.dash_title {
+  margin-left: 3px;
+}
