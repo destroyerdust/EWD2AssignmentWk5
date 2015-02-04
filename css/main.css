@@ -1,3 +1,7 @@
+#countdown_dashboard{
+  height: 30px;
+}
+
 .dash {
   float: left;
   margin-left: 10px;
@@ -9,4 +13,15 @@
 
 .dash_title {
   margin-left: 3px;
+}
+
+.tabs {
+  text-align: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.tabs .tab-title {
+  width: 140px;
 }
