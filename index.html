@@ -117,7 +117,13 @@
     </script>
     <script type="text/javascript">
       $(document).ready(function(){
-        $('.slick-img').slick();
+        $('.slick-img').slick({
+          dots: true,
+          infinite: true,
+          speed: 500,
+          slidesToShow: 1,
+          slidesToScroll: 1
+        });
       });
       </script>
   </body>
