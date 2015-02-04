@@ -1,20 +1,25 @@
 #countdown_dashboard {
-  height: 30px;
+  height: 100px;
 }
 .dash {
   float: left;
-  margin-left: 10px;
-}
-.dash .digit {
-  float: left;
-  position: absolute;
+  position: relative;
   width: 25%;
+  height: 100px;
+  border-right: 0;
+  text-align: center;
+  box-shadow: 1px 0 0 rgba(0,0,0,0.2);
+}
+.digit {
+  position: absolute;
+  width: 100%;
   font: 600 36px/70px "Open sans", Arial, sans-serif;
   margin-right: 10px;
 }
 .digits {
   display: block;
   position: relative;
+  height: 100px;
 }
 .digit-1 {
   margin-left: -19px;
@@ -24,7 +29,14 @@
 }
 .dash_title {
   display: block;
-  margin-left: 3px;
+  position: relative;
+  width: 100%;
+  color: #fff;
+  font: 500 10px/30px "Open sans", Helvetica, sans-serif;
+  background: #111;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
 }
 .tabs {
   text-align: center;
