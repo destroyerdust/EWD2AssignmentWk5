@@ -46,3 +46,15 @@
 .tabs .tab-title {
   width: 140px;
 }
+
+/* Banner Img */
+.banner-img {
+  width:75%;
+  height:auto;
+  display:block;
+  margin:auto;
+}
+
+#banner-wrapper {
+  background-color: #FE230F;
+}
