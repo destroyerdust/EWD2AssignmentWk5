@@ -68,3 +68,8 @@
 .schedule-title {
   font-weight: bold;
 }
+
+/* Foundation Tab Override */
+.tabs dd > a, .tabs .tab-title > a {
+  background-color: #DDDDDD;
+}
