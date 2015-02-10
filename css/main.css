@@ -72,4 +72,5 @@
 /* Foundation Tab Override */
 .tabs dd > a, .tabs .tab-title > a {
   background-color: #DDDDDD;
+  font-weight: bold;
 }
