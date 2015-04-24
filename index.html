@@ -75,10 +75,12 @@
       </script>
         <img src="img/dr-seuss.jpg" class="banner-img">
         <img name="slideImg" src="img/Fish.jpg"  border=0 class="slide_show">
-        <a href="#" onClick="switchImage('slideImg')">play slide show</a>
-        <a href="#" onClick="clearTimeout(timerID)"> pause</a>
-        <a href="#" onClick="prevImage('slideImg'); clearTimeout(timerID)"> previous</a>
-        <a href="#" onClick="switchImage('slideImg'); clearTimeout(timerID)">next </a>
+        <div class="center-contents">
+          <a href="#stay_here" onClick="switchImage('slideImg')">play</a>
+          <a href="#stay_here" onClick="clearTimeout(timerID)">pause</a>
+          <a href="#stay_here" onClick="prevImage('slideImg'); clearTimeout(timerID)">prev</a>
+          <a href="#stay_here" onClick="switchImage('slideImg'); clearTimeout(timerID)">next</a>
+        </div>
       </div>
     </div>
   </div>
