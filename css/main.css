@@ -62,6 +62,9 @@
   margin:auto;
 }
 
+.center-contents > a {
+  color: #000000;
+}
 .center-contents {
   text-align: center;
 }
